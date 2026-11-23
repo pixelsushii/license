@@ -1,0 +1,290 @@
+[
+ {
+  "id": 1,
+  "software": "Adobe Photoshop",
+  "version": "2022",
+  "price": 249,
+  "key": "C170B-83F81-CA10A-5E6A8",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 2,
+  "software": "Adobe Photoshop",
+  "version": "2023",
+  "price": 259,
+  "key": "D2539-74FD9-FA293-3EE20",
+  "featured": true,
+  "discount": 10
+ },
+ {
+  "id": 3,
+  "software": "Adobe Photoshop",
+  "version": "2024",
+  "price": 269,
+  "key": "D0DF8-D06E6-EDF18-87A97",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 4,
+  "software": "Microsoft Office",
+  "version": "2019",
+  "price": 139,
+  "key": "5C5AE-F5252-2E6FF-7745B",
+  "featured": false,
+  "discount": 25
+ },
+ {
+  "id": 5,
+  "software": "Microsoft Office",
+  "version": "2021",
+  "price": 149,
+  "key": "5B125-37B7E-3E355-C7943",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 6,
+  "software": "Microsoft Office",
+  "version": "2024",
+  "price": 169,
+  "key": "6F821-9CB81-98A17-84FE4",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 7,
+  "software": "Windows Pro",
+  "version": "10",
+  "price": 99,
+  "key": "194B4-21C43-A5C4E-82AD5",
+  "featured": false,
+  "discount": 30
+ },
+ {
+  "id": 8,
+  "software": "Windows Pro",
+  "version": "11",
+  "price": 129,
+  "key": "7238F-A7646-1A040-01D88",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 9,
+  "software": "Visual Studio",
+  "version": "2019",
+  "price": 499,
+  "key": "16932-F85C0-3F83E-CD09D",
+  "featured": false,
+  "discount": 20
+ },
+ {
+  "id": 10,
+  "software": "Visual Studio",
+  "version": "2022",
+  "price": 549,
+  "key": "475BA-058EC-E1720-F915F",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 11,
+  "software": "IntelliJ IDEA",
+  "version": "2023.3",
+  "price": 169,
+  "key": "2FABD-92056-04F2D-77138",
+  "featured": false,
+  "discount": 15
+ },
+ {
+  "id": 12,
+  "software": "IntelliJ IDEA",
+  "version": "2024.1",
+  "price": 179,
+  "key": "E0B13-A99B4-FA999-18B78",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 13,
+  "software": "IntelliJ IDEA",
+  "version": "2024.2",
+  "price": 179,
+  "key": "A8E8A-A9023-7388F-4F6FC",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 14,
+  "software": "AutoCAD",
+  "version": "2023",
+  "price": 1850,
+  "key": "CDF21-EDF21-1687C-423BD",
+  "featured": false,
+  "discount": 35
+ },
+ {
+  "id": 15,
+  "software": "AutoCAD",
+  "version": "2024",
+  "price": 1950,
+  "key": "8C7D6-01EBD-102C8-1BE3D",
+  "featured": false,
+  "discount": 10
+ },
+ {
+  "id": 16,
+  "software": "AutoCAD",
+  "version": "2025",
+  "price": 2050,
+  "key": "6987D-20761-5BD5C-61C2E",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 17,
+  "software": "Premiere Pro",
+  "version": "2023",
+  "price": 239,
+  "key": "D1D66-ED94E-FD738-2AD1F",
+  "featured": false,
+  "discount": 20
+ },
+ {
+  "id": 18,
+  "software": "Premiere Pro",
+  "version": "2024",
+  "price": 249,
+  "key": "2E26C-21D36-10EF9-D971B",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 19,
+  "software": "Norton 360",
+  "version": "2023",
+  "price": 39,
+  "key": "B471B-89150-529DD-E19B6",
+  "featured": false,
+  "discount": 40
+ },
+ {
+  "id": 20,
+  "software": "Norton 360",
+  "version": "2024",
+  "price": 45,
+  "key": "B7A12-07F30-28636-BEB3F",
+  "featured": false,
+  "discount": 15
+ },
+ {
+  "id": 21,
+  "software": "Norton 360",
+  "version": "2025",
+  "price": 49,
+  "key": "DAEE7-F2AF6-C7504-9460A",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 22,
+  "software": "WinRAR",
+  "version": "6.24",
+  "price": 29,
+  "key": "96CC9-CEC8A-E49DC-A5E9B",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 23,
+  "software": "WinRAR",
+  "version": "7.01",
+  "price": 35,
+  "key": "B9D45-A2AB8-E7973-1719E",
+  "featured": false,
+  "discount": 5
+ },
+ {
+  "id": 24,
+  "software": "Camtasia",
+  "version": "2023",
+  "price": 249,
+  "key": "290C6-06521-EF769-0C4D5",
+  "featured": false,
+  "discount": 25
+ },
+ {
+  "id": 25,
+  "software": "Camtasia",
+  "version": "2024",
+  "price": 269,
+  "key": "B7AB6-6B3FC-9CFE9-253EA",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 26,
+  "software": "Parallels Desktop",
+  "version": "18",
+  "price": 99,
+  "key": "C8BBE-8FC06-FED6A-658BF",
+  "featured": false,
+  "discount": 20
+ },
+ {
+  "id": 27,
+  "software": "Parallels Desktop",
+  "version": "19",
+  "price": 109,
+  "key": "9C716-11E56-4F2A5-5DBE2",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 28,
+  "software": "Sublime Text",
+  "version": "3",
+  "price": 80,
+  "key": "3ED3D-A3562-A0CDE-1B530",
+  "featured": false,
+  "discount": 50
+ },
+ {
+  "id": 29,
+  "software": "Sublime Text",
+  "version": "4",
+  "price": 99,
+  "key": "FD586-F164F-C3898-C6CCE",
+  "featured": true,
+  "discount": 0
+ },
+ {
+  "id": 30,
+  "software": "Kaspersky Premium",
+  "version": "2024",
+  "price": 59,
+  "key": "FBA66-7927D-12C40-F3DCE",
+  "featured": false,
+  "discount": 30
+ },
+ {
+  "id": 31,
+  "software": "Kaspersky Premium",
+  "version": "2025",
+  "price": 65,
+  "key": "73E36-A2654-C8D2B-82C81",
+  "featured": false,
+  "discount": 0
+ },
+ {
+  "id": 32,
+  "software": "Final Cut Pro",
+  "version": "10.6",
+  "price": 299,
+  "key": "242C6-DCEA7-77535-35FE3",
+  "featured": false,
+  "discount": 0
+ }
+]

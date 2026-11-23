@@ -1,0 +1,56 @@
+:root {
+  --bg: #f4f6fb; --card: #fff; --text: #1d2433; --muted: #6b7385;
+  --primary: #4f46e5; --danger: #e11d48; --gold: #f59e0b; --radius: 14px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+
+.top { text-align: center; padding: 2.5rem 1rem; color: #fff;
+  background: linear-gradient(135deg, var(--primary), #7c3aed); }
+.top p { opacity: .85; margin-top: .4rem; }
+
+main { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+section { margin: 2rem 0; }
+section:has(#featured, #offers, #latest) {
+  width: 100%;
+  max-width: calc(3 * 240px + 2 * 1rem);
+  margin-inline: auto;
+}
+section h2 { margin-bottom: 1rem; }
+footer { text-align: center; color: var(--muted); padding: 2rem; font-size: .85rem; }
+
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+#featured, #offers, #latest {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 240px));
+  justify-content: start;
+}
+section:has(#featured, #offers, #latest) > h2 { text-align: left; }
+.empty { color: var(--muted); grid-column: 1 / -1; }
+
+.card { position: relative; background: var(--card); border-radius: var(--radius);
+  padding: 1.2rem; text-align: center; box-shadow: 0 2px 8px #0001; transition: transform .15s; }
+.card:hover { transform: translateY(-4px); }
+.logo { width: 64px; height: 64px; margin: .5rem auto 1rem; border-radius: 16px;
+  color: #fff; font-size: 2rem; font-weight: 700; display: grid; place-items: center; }
+.version { color: var(--muted); font-size: .9rem; }
+.price { margin: .8rem 0; }
+.price s { color: var(--muted); margin-right: .4rem; }
+.price strong { font-size: 1.3rem; }
+.badge { position: absolute; top: .6rem; font-size: .75rem; font-weight: 600;
+  padding: .2rem .5rem; border-radius: 999px; color: #fff; }
+.badge.off { left: .6rem; background: var(--danger); }
+.badge.star { right: .6rem; background: var(--gold); }
+
+button { cursor: pointer; border: 0; border-radius: 8px; padding: .55rem 1rem;
+  background: var(--primary); color: #fff; font-weight: 600; }
+button:hover { filter: brightness(1.1); }
+
+.filters { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin-bottom: 1rem; }
+.filters input[type=search], .filters select { padding: .5rem; border: 1px solid #ccd; border-radius: 8px; }
+
+dialog { margin: auto; border: 0; border-radius: var(--radius); padding: 2rem; text-align: center;
+  box-shadow: 0 10px 40px #0005; }
+dialog::backdrop { background: #0008; }
+dialog code { display: block; margin: 1rem 0; padding: .8rem; background: #eef; border-radius: 8px;
+  font-size: 1.1rem; letter-spacing: 1px; }
+dialog .actions { display: flex; gap: .5rem; justify-content: center; }
